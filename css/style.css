@@ -548,7 +548,6 @@ p {
 
 .opportunity {
   padding-top: 160px;
-  padding-bottom: 147px;
 }
 .opportunity__box {
   display: flex;
@@ -614,4 +613,87 @@ p {
   font-weight: 400;
   line-height: 25px;
   padding-top: 27px;
+}
+
+.rounds {
+  padding: 147px 0;
+}
+.rounds__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rounds__wrapper:not(:last-child) {
+  padding-bottom: 105px;
+}
+.rounds__box {
+  width: 445px;
+  position: relative;
+}
+.rounds__title {
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+  padding-bottom: 24px;
+}
+.rounds__text {
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+.rounds__btn {
+  background-color: #FCB72B;
+  color: #fff;
+  border: none;
+  width: 180px;
+  height: 53px;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transition: all 0.5s ease-in-out;
+}
+.rounds__btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #FCB72B;
+  border: 1px solid #FCB72B;
+  transition: all 0.5s ease;
+}
+.rounds__btn:active {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.rounds .zero_pay {
+  width: 445px;
+  height: 445px;
+  border-radius: 445px;
+}
+.rounds .easy_bg::after {
+  content: url(../../img/easy_girl.svg);
+  position: absolute;
+  right: -900px;
+}
+.rounds .siti_gb::after {
+  content: url(../../img/sity_line.svg);
+  position: absolute;
+  left: -800px;
+  top: 0%;
+}
+.rounds .zero_bg::after {
+  content: url(../../img/easy_line.svg);
+  position: absolute;
+  right: -800px;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
