@@ -728,7 +728,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 159px;
+  width: 169px;
   height: 56px;
   color: #495567;
   background-color: #E5ECF4;
@@ -742,12 +742,11 @@ p {
 .footer__magazin__discript__text {
   color: #495567;
   font-family: "Space Mono";
-  font-size: 20px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: -0.893px;
-  width: 92px;
+  line-height: normal;
+  letter-spacing: -0.446px;
 }
 .footer__magazin__discript__title {
   color: #495567;
