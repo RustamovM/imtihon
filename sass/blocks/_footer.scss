@@ -1,0 +1,111 @@
+.footer {
+  background-color: $gray-color;
+  padding-top: 102px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 102px;
+  }
+  &__title {
+    width: 415px;
+    color: $white-color;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__magazin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 159px;
+    height: 56px;
+    color: $gray-color;
+    background-color: $footer-mag-color;
+    padding: 9px 16px;
+    margin-right: 18px;
+    border-radius: 4px;
+  }
+  &__magazin__discript {
+    padding-left: 12px;
+  }
+  &__magazin__discript__text {
+    color: $gray-color;
+    font-family: "Space Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+    width: 92px;
+  }
+  &__magazin__discript__title {
+    color: $gray-color;
+    font-family: "Space Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+  }
+  &__bottom {
+    background-color: $footer-color;
+    padding: 35px 0;
+  }
+
+  &__bottom__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__bottom__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__bottom__nav {
+    padding-left: 59px;
+  }
+  &__bottom__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__bottom__link {
+    color: $text-color;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+    transition: all 0.5s ease;
+  }
+  &__bottom__link:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: $activ-text-color;
+    transition: all 0.5s ease;
+  }
+  &__bottom__link:active{
+    color: $white-color;
+    transition: all 0.5s ease;
+  }
+  &__link__box img{
+    padding-right: 24px;
+  }
+
+  &__link__box img:hover{
+    cursor: pointer;
+  }
+
+}

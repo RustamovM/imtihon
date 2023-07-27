@@ -361,6 +361,7 @@ body {
   font-family: "Space Mono", "Lexend Deca" "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 img {
@@ -696,4 +697,111 @@ p {
   position: absolute;
   right: -800px;
   top: 0;
+}
+
+.footer {
+  background-color: #495567;
+  padding-top: 102px;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 102px;
+}
+.footer__title {
+  width: 415px;
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__magazin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 159px;
+  height: 56px;
+  color: #495567;
+  background-color: #E5ECF4;
+  padding: 9px 16px;
+  margin-right: 18px;
+  border-radius: 4px;
+}
+.footer__magazin__discript {
+  padding-left: 12px;
+}
+.footer__magazin__discript__text {
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.893px;
+  width: 92px;
+}
+.footer__magazin__discript__title {
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.893px;
+}
+.footer__bottom {
+  background-color: #333A44;
+  padding: 35px 0;
+}
+.footer__bottom__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bottom__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bottom__nav {
+  padding-left: 59px;
+}
+.footer__bottom__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer__bottom__link {
+  color: #939CAA;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transition: all 0.5s ease;
+}
+.footer__bottom__link:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #FCB72B;
+  transition: all 0.5s ease;
+}
+.footer__bottom__link:active {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.footer__link__box img {
+  padding-right: 24px;
+}
+.footer__link__box img:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

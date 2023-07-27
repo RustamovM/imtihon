@@ -2,6 +2,8 @@ $text-color:#939CAA;
 $activ-text-color:#FCB72B;
 $white-color:#fff;
 $gray-color:#495567;
+$footer-color:#333A44;
+$footer-mag-color:#E5ECF4;
 
 @mixin btn{
   background-color: $activ-text-color;
@@ -36,6 +38,7 @@ body {
   font-family:"Space Mono","Lexend Deca" "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 img {
