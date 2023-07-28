@@ -667,13 +667,12 @@ p {
 .rounds__btn:hover {
   cursor: pointer;
   background-color: transparent;
-  color: #FCB72B;
   border: 1px solid #FCB72B;
   transition: all 0.5s ease;
 }
 .rounds__btn:active {
   cursor: pointer;
-  color: #fff;
+  color: #495567;
   transition: all 0.5s ease;
 }
 .rounds .zero_pay {
